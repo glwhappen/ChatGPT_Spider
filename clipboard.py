@@ -2,7 +2,7 @@ import pyperclip
 import time
 
 class ClipboardManager:
-    def __init__(self, id):
+    def __init__(self, id = "NULL"):
         self.id = id
         # 使用一个复杂的分隔符来区分ID和内容
         self.delimiter = ":=+x+:=:"
